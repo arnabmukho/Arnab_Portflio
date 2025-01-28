@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Arnab Mukherjee | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .header-bg {
+            position: relative;
+            background-color: #2563eb; /* Tailwind's blue-600 */
+            color: white;
+        }
+
+        .header-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('supp.png') no-repeat center;
+            background-size: cover;
+            opacity: 0.3; /* Adjust transparency */
+            z-index: 0;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1; /* Bring content above the background image */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="header-bg py-6">
+        <div class="header-content container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Dr. Arnab Mukherjee, Ph.D.</h1>
+            <p class="text-lg mt-2">Researcher | Educator | Computational Biologist</p>
+            <!-- Profile Photo -->
+            <img src="Photo_Arnab.jpg" alt="Dr. Arnab Mukherjee" class="mx-auto mt-4 rounded-full" style="width:200px;height:200px;">
+            <div class="mt-4">
+                <a href="https://github.com/arnabmukho" class="text-white hover:underline mx-2">GitHub</a>
+                <a href="http://www.linkedin.com/in/dr-arnab-mukherjee-ph-d-6221b5181" class="text-white hover:underline mx-2">LinkedIn</a>
+                <a href="https://orcid.org/my-orcid?orcid=0000-0002-2147-5182" class="text-white hover:underline mx-2">ORCID</a>
+                <a href="https://scholar.google.com/citations?user=KNlrgXoAAAAJ&hl=en" class="text-white hover:underline mx-2">Google Scholar</a>
+            </div>
+        </div>
+    </header>
+
+   <!-- About Me Section -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p class="text-lg leading-relaxed">
+                I am a passionate researcher and educator who is always motivated, eager to learn new skills, and seeking opportunities in computational biology where I can apply and disseminate my existing skills and knowledge for continuous scientific advancements.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-10 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Education</h2>
+            <ul class="space-y-4">
+                <li>
+                    <h3 class="text-xl font-semibold">Ph.D., Manipal Academy of Higher Education (2021 – 2024)</h3>
+                    <p><strong>Systematic Identification of Volatile Leads to Target Lung Cancer</strong>strong></p>
+                    <ul class="list-disc list-inside space-y-2 mt-2">
+                        <li>Utilized machine learning, molecular simulations, and integrative omics to identify multi-target volatile leads for lung cancer.</li>
+                        <li>Uncovered biomarkers, regulatory networks, and therapeutic targets driving lung cancer progression.</li>
+                        <li>Demonstrated the potential of volatile leads in targeting a novel lncRNA transcript, inhibiting protein-protein interactions, aberrantly DNA methylated targets, and a mutated EGFR in lung cancer.</li>
+                        <li>Acquired advanced skills in data visualization, cheminformatics, integrative omics, and systems biology.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="text-xl font-semibold">M.Sc., Biotechnology, SRM Institute of Science and Technology (2018 – 2020)</h3>
+                    <p>Dissertation: Evaluation of Antioxidant and Anticancer Properties of RP12 Peptide</p>
+                </li>
+                <li>
+                    <h3 class="text-xl font-semibold">B.Sc. (H), Genetics, Maulana Abul Kalam Azad University of Technology (2015 – 2018)</h3>
+                    <p>Dissertation: Antioxidant and Hepatoprotective Effects of Andrographis sp.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Technical Skills</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li><strong>Computational Tools:</strong> R, Python, Bash Scripting, GNU/Linux, GROMACS, Gilde, Desmond, AutoDock, Samtools, bedtools, Robetta, AlphaFold</li>
+                <li><strong>Specialized Areas:</strong> RNA Therapeutics, Molecular Dynamics Simulations, Cheminformatics</li>
+                <li><strong>Data Analysis:</strong> Machine Learning, Data Visualization, Integrative Omics</li>
+                <li><strong>Molecular Techniques:</strong> Cell Culture, Imaging Techniques, Zebrafish Model</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="py-10 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Achievements</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Presented a poster and flash talk at IIT Madras–EMBL-EBI Winter School 2021 on “Systematic Identification of Lung Cancer Biomarkers Using Dynamic Network Analysis."</li>
+                <li>Selected as one of 23 delegates for CompBio22-23 (Thailand and Singapore), funded by the National Science Foundation (NSF, USA), XSEDE, and TEIN* Cooperation Centre.</li>
+                <li>Participated in SERB High-End Workshop (Karyashala) on “Bioinformatics and Statistical Analysis of Genome-Scale DNA and RNA Sequencing Data” at DBT-National Institute of Biomedical Genomics, Kalyani, West Bengal, India.</li>
+                <li>Presented a poster at the International Conference on Drug Discovery 2022, BITS Pilani, on “Identification of lncRNAs Driving Radioresistance in Non-Small Cell Lung Cancer.”</li>
+                <li>Secured Bioconductor Travel Fellowship to deliver a talk at BioC2024 in Grand Rapids, Michigan, USA.</li>
+                <li>Appointed as a Judge at the Regional Level of the National Science Congress 2023 by Kendriya Vidyalaya Sangathan (Bengaluru Region).</li>
+                <li>Graduate Student Member, American Society of Human Genetics (May 2023 – December 2023).</li>
+                <li>Reviewed original articles for Heliyon, CellPress–Elsevier.</li>
+                <li>Visiting Scholar at Prof. Colin Jamora’s Lab, DBT-inStem, Bengaluru, India (August – October 2023), specializing in cell culture, staining, and imaging techniques.</li>
+                <li>The Data, Library, and Software Carpentries Instructor at Bioconductor</li>
+            </ul>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Publications</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Mukherjee, A., et al. (2023). Identification of therapeutic miRNAs from the arsenic induced gene expression profile of hepatocellular carcinoma. <em>Chemical Biology & Drug Design</em>. <a href="https://doi.org/10.1111/CBDD.14132" class="text-blue-600 hover:underline">Read more</a></li>
+                <li>Mukherjee, A., et al. (2024). From Data to Cure: A Comprehensive Exploration of Multi-omics Data Analysis for Targeted Therapies. <em>Molecular Biotechnology</em>. <a href="https://doi.org/10.1007/S12033-024-01133-6" class="text-blue-600 hover:underline">Read more</a></li>
+                <li>Mukherjee, A., et al. (2023).Unveiling Potential Targeted Therapeutic Opportunities for Co-Overexpressed Targeting Protein for Xklp2 and Aurora-A Kinase in Lung Adenocarcinoma. <em>Molecular Biotechnology</em>. <a href="https://doi.org/10.1007/S12033-023-00879-9" class="text-blue-600 hover:underline">Read more</a></li>
+                <li>Raju, S. V., Mukherjee, A., et al. (2021). RM12 similar to substance P from tachykinin of freshwater murrel Channa striatus influence intracellular ROS in vitro fish erythrocytes and developmental toxicity and antioxidant enzymes in vivo zebrafish embryo. Fish Physiology and Biochemistry. <em>Fish Physiology and Biochemistry</em>. <a href="https://doi.org/10.1007/S10695-021-00950-9" class="text-blue-600 hover:underline">Read more</a></li>
+                <li>Mukherjee, A., Kansagra, G., & Mukunthan, · K S. Unsupervised Machine Learning Based Screening of Volatile Leads to Target T790M Mutated EGFR in lung Cancer (Submitted).</li>
+                <li>Mukherjee, A., Boonbangyang, M., & Mukunthan, · K S. Unraveling the Intricate Molecular Landscape and Potential Biomarkers in Lung Adenocarcinoma through Integrative Epigenomic and Transcriptomic Profiling (Submitted).</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-10 bg-blue-600 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+            <p class="text-lg">Feel free to reach out via email: <a href="mailto:arnabbiotech.gen@gmail.com" class="underline">arnabbiotech.gen@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800 text-white text-center">
+        <p>&copy; 2025 Dr. Arnab Mukherjee. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
